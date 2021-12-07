@@ -1,0 +1,36 @@
+{
+  "name": "@nobidev/test-selenium",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint tests *.ts",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=12.22",
+    "npm": "^7.21.0",
+    "yarn": "^1.22.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "reflect-metadata": "^0.1.13",
+    "utility-types": "^3.10.0"
+  },
+  "devDependencies": {
+    "@jest/types": "^27.0.6",
+    "@types/jest": "^26.0.24",
+    "@types/lodash": "^4.14.177",
+    "@types/node": "^16.3.2",
+    "@types/selenium-webdriver": "^4.0.16",
+    "@typescript-eslint/eslint-plugin": "^4.28.3",
+    "@typescript-eslint/parser": "^4.28.3",
+    "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "selenium-webdriver": "^4.1.0",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.3.5"
+  }
+}
